@@ -1,0 +1,15 @@
+# Example bioinformatics workflow
+
+# Sequence retrieval
+NCBI GenBank
+
+# Multiple Sequence Alignment
+MUSCLE (MEGA11)
+
+# Alternative command using Clustal Omega
+clustalo -i flores_all.fasta -o aligned.fasta
+
+# Phylogenetic Analysis
+MEGA11
+Neighbor Joining
+Bootstrap = 1000
